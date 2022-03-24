@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha",
     "dev": "nodemon index"
   },
   "keywords": [
