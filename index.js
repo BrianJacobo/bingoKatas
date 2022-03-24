@@ -66,3 +66,8 @@ const getWinner = (players, numbers) => {
 };
 
 getWinner(players, numbers);
+
+module.exports = {
+  getWinner,
+  generatePlayers
+};
